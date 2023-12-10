@@ -9,53 +9,69 @@
 <body>
 
     <header>
-        <h1>Mukulesh Shinde</h1>
-        <p>Software Engineer | Leader | Creator</p>
+        <h1 id="name">Mukulesh Shinde</h1>
+        <p id="title">Software Engineer | Leader | Creator</p>
     </header>
 
     <main>
 
-        <section class="about">
-            <h2>About Me</h2>
-            <p>A passionate software engineer with a demonstrated track record of success in developing and maintaining high-quality software. Skilled in various programming languages and frameworks. Possesses strong leadership and communication skills, with experience working in both individual and team environments.</p>
+        <section class="banner">
+            <img src="images/banner.jpg" alt="Mukulesh Shinde">
+            <p class="tagline">Building a brighter future through technology and positive energy.</p>
         </section>
 
-        <section class="experience">
-            <h2>Experience</h2>
-            <h3>Samsung Research Institute Bangalore | Software Engineer (July 2022 - Present)</h3>
+        <section class="navigation">
             <ul>
-                <li>Developed the Evolved Packet Data Gateway (EPDG) module for enabling Wi-Fi calling on Samsung flagship devices.</li>
-                <li>Assisted in the major redesign of the data module as per the new data stack and AP-assisted feature introduced by Google.</li>
-                <li>Received the Technical Award for the accomplished release and redevelopment of Samsung S23/S23+/S23 Ultra devices.</li>
-                <li>Handled major requirements related to the Wi-Fi to 4G/5G handover requirements and concluded discussions with telecom operators.</li>
-                <li>Received the Technical Award for the successful release of the handled requirements for the premium Samsung S24/S24+/S24 Ultra devices for T-mobile USA.</li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#extracurricular">Extracurricular Activities</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
-
-            <h3>Citibank | Junior Analyst Intern (May 2021 - July 2021)</h3>
-            <p>Developed an enhancement dashboard for analyzing employee entitlements, utilizing SQL queries and performance metrics.</p>
         </section>
 
-        <section class="achievements">
+        <section class="about" id="about">
+            <h2>About Me</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quis massa eget libero commodo tempus. Proin blandit justo sit amet libero lacinia, eu tincidunt odio posuere. In hac habitasse platea dictumst. Aenean ac lorem et dui tincidunt elementum.</p>
+        </section>
+
+        <section class="experience" id="experience">
+            <h2>Experience</h2>
+            <div class="card">
+                <img src="images/company1.png" alt="Company 1 Logo">
+                <h3>Software Engineer</h3>
+                <p>Company 1 | July 2022 - Present</p>
+                <ul>
+                    <li>Developed the Evolved Packet Data Gateway (EPDG) module for enabling Wi-Fi calling.</li>
+                    <li>Assisted in the redesign of the data module as per the new data stack.</li>
+                    <li>Received the Technical Award for the accomplished release of Samsung S23 devices.</li>
+                </ul>
+            </div>
+            </section>
+
+        <section class="achievements" id="achievements">
             <h2>Achievements</h2>
             <ul>
-                <li>Awarded IIT Kanpur Students' Gymkhana Certificate of Appreciation for displaying exemplary leadership (2022)</li>
-                <li>Secured All India Rank 874 in JEE Advanced 2018 and All India Rank 1585 in JEE Mains 2018</li>
-                <li>INSPIRE scholarship awardee given by Ministry of Science and Technology, Government of India (2018)</li>
-                <li>Merit Cum Means scholarship awardee given by the Ministry of Minority Affairs, Government of India (2019)</li>
-                <li>Silver Medal at the Zonal Level, earning a spot in the National CBSE Inter School Taekwondo Championship (2014)</li>
-                <li>Certificate of Merit by CBSE for outstanding performance in CBSE - X examination (2016)</li>
+                <li>Awarded IIT Kanpur Students' Gymkhana Certificate of Appreciation (2022)</li>
+                <li>Secured All India Rank 874 in JEE Advanced 2018</li>
+                <li>INSPIRE scholarship awardee (Ministry of Science and Technology, 2018)</li>
+                <li>Silver Medal at the Zonal Level CBSE Inter School Taekwondo Championship (2014)</li>
             </ul>
         </section>
 
-        <section class="extracurricular">
+        <section class="extracurricular" id="extracurricular">
             <h2>Extracurricular Activities</h2>
             <ul>
-                <li>Assisted in managing funds of about 30 lakhs as Finance Secretary, Media and Cultural Council, IIT Kanpur</li>
-                <li>Representative to Council of Students' Hostel Affairs from the Students' Senate IIT Kanpur</li>
+                <li>Assisted in managing funds as Finance Secretary, Media and Cultural Council, IIT Kanpur</li>
+                <li>Representative to Council of Students' Hostel Affairs</li>
                 <li>Performed 10+ street and stage plays and represented IIT Kanpur in cultural events</li>
-                <li>Formed a dramatics faction and guided them to victory in a street play competition</li>
-                <li>Selected for Vijyoshi Camp 2018 organized by Department of Science and Technology, Government of India</li>
+                <li>Selected for Vijyoshi Camp 2018 (Department of Science and Technology, Government of India)</li>
             </ul>
+        </section>
+
+        <section class="contact" id="contact">
+            <h2>Contact</h2>
+            <p>Get in touch: <a href="mailto:mukulesh.shinde@example.com">mukulesh.shinde@example.com</a></p>
         </section>
 
     </main>
@@ -64,5 +80,6 @@
         <p>&copy; Mukulesh Shinde 2023</p>
     </footer>
 
+    <script src="script.js"></script>
 </body>
 </html>
